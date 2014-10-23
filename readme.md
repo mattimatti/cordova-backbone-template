@@ -21,12 +21,15 @@ With these, you should be able to run the following commands to get the included
 
 ### Running on a device or simulator
 
+
 Installing node/bower dependencies (both locally and globally for node):
 
 ```
-npm install -g
-npm install 
+npm install
 bower install
+sudo npm install -g cordova
+sudo npm install -g ios-sim
+
 ```
 
 Getting your app ready for compilation:
